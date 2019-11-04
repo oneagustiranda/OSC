@@ -1,36 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="theme-color" content="#000000"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="description" content="Perusahaan penyedia layanan dan konten pendidikan berbasis teknologi terkemuka di Indonesia.  #BelajarJadiMudah"/><meta name="keywords" content="guru privat, guru les, guru kursus, try out online, soal un, aplikasi belajar online"/><meta name="robots" content="index, follow, noodp, noydir"/><link rel="manifest" href="/manifest.json"/><link rel="shortcut icon" href="/favicon.ico"/><script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-PVNLZFT",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")</script><title>Ruangguru</title><script>function testFunc(){"undefined"!=typeof Android&&Android.showToast("Ruangguru webview")}</script><script>function params(n,o){if("android"===o){var i=window.location.pathname;return"undefined"!=typeof Android&&Android.showToast("ruangguru"),window.location.href=i+"?token="+n+"&client_type="+o}}</script><script>let home = window.location.href;
-    if (home === 'https://ruangguru.com/') {
-      window.location.replace('http://bimbel.ruangguru.com/');
-    }</script><link href="/static/css/main.299ba4f0.css" rel="stylesheet"></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVNLZFT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>document.addEventListener("DOMContentLoaded",function(){var e,t;(e=document.createElement("script")).type="text/javascript",e.src="https://s3-ap-southeast-1.amazonaws.com/qiscus-sdk/public/qismo/qismo-v2.js",e.async=!0,e.onload=e.onreadystatechange=function(){new Qismo("ump-jks0xieqivs8uasfu")},(t=document.getElementsByTagName("script")[0]).parentNode.insertBefore(e,t)})</script><script src="https://cdn.ravenjs.com/3.19.1/raven.min.js" crossorigin="anonymous"></script><script>Raven.config(
-      'https://359cef9dc8ef49f0b7eb350f0312799b@sentry.io/238821',
-      {
-        sampleRate: 0.25,
-        ignoreErrors: [
-          'Attempted to update component `y` that has already been unmounted (or failed to mount).',
-          `Can't find variable: Symbol`,
-          `Cannot convert 'n' to object`,
-          `Cannot convert 'e' to object`,
-          `Cannot read property 'replaceChild' of null`,
-          `Cannot read property 'getInstance' of null``Cannot read property 'querySelector' of null`,
-          `Cannot read property 'src' of null`,
-          `Cannot read property 'getHostNode' of null`,
-          `Cannot read property '_currentElement' of null`,
-          `e.parentNode is null`,
-          `FB is not defined`,
-          `l.removedNodes[Symbol.iterator] is not a function`,
-          `n.append is not a function`,
-          `n.append is not a function. (In 'n.append(d.c)', 'n.append' is undefined)`,
-          `Object #<HTMLScriptElement> has no method 'append'`,
-          `Object doesn't support property or method 'append'`,
-          `Object doesn't support property or method 'ToString'`,
-          `Object doesn't support property or method 'Symbol(Symbol.iterator)'`,
-          `Symbol is not defined`,
-          `s.removedNodes[Symbol.iterator] is not a function. (In 's.removedNodes[Symbol.iterator]()',`,
-          `'undefined' is not a function (evaluating 'n.append(d.c)')`,
-          `Undefined variable: cancelAnimationFrame`,
-          `Undefined variable: requestAnimationFrame`,
-          `undefined is not a function (evaluating 'n.append(d.c)')`,
-        ],
-      }
-    ).install();</script><noscript><p>You don't have javascript enabled. Setel javascript enable di browser anda</p></noscript><div id="root"></div><script type="text/javascript" src="/static/js/main.bc59bc30.js"></script></body></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Open Source Competition</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        .iqbal {
+            height: 400px;
+            background-size: 400px, 335px, 332px, 100%;
+            background-position: left top, 100% 22px, right bottom, center center;
+            background-repeat: no-repeat;
+            background-image: url('https://ruangguru.imgix.net/svg/home_subscription-pattern-left.svg?auto=compress%2Cenhance%2Cformat'),
+                url('https://ruangguru.imgix.net/png/home_subscription-background-iqbal.png?auto=compress%2Cenhance%2Cformat'),
+                url('https://ruangguru.imgix.net/svg/home_subscription-pattern-right.svg?auto=compress%2Cenhance%2Cformat'),
+                linear-gradient(to bottom, #ec2a2d, #ed3947, #eb495e, #e75872, #e06784);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-3 rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">OSC'19</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Tentang Kami <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produk Kami
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ruangbaca</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Bimbel Online
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bantuan</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <button type="button" class="btn btn-outline-info rounded-pill">&nbsp;Masuk&nbsp;</button>&nbsp;
+                    &nbsp;
+                    <button type="button" class="btn btn-info rounded-pill">&nbsp;Daftar&nbsp;</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Awal Iqbal -->
+    <div class="jumbotron iqbal">
+        <h1 class="display-5 text-white">Langganan ruangbelajar dan <br /> jadi juara!</h1>
+        <br/>
+        <a class="btn btn-warning btn-lg rounded-pill w-30" href="#" role="button">
+            <h6>PILIH KELAS KALIAN</h6>
+        </a>
+    </div>
+    <!-- Akhir Iqbal -->
+
+
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
